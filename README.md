@@ -18,7 +18,6 @@ This document contains the following details:
   - Machines Being Monitored
 - How to Use the Ansible Build
 
-
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
@@ -33,7 +32,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metric beat looks out for metrics and statistics on the server with all running services.
 
 The configuration details of each machine may be found below.
-
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -68,8 +66,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Install docker.io 
+- Install pip3 
+- Install Docker python module 
+- Increase virtual memory 
+- download and launch a docker elk container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -98,6 +99,6 @@ SSH into the control node and follow the steps below:
 _TODO: Answer the following questions to fill in the blanks:_
 - The YAML files are located in the pathway /etc/Ansible
 - The hosts file needs to be changed for Ansible to run. To specifiy which machine installs ansible playbooks the [servername] needs to be set.
-- To check if the Elk server is running open a web browser and type http://138.91.139.225/:5601/app/home
+- To check if the Elk server is running open a web browser and type http://138.91.139.225/:5601/app/home 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+Be familiar with ansible, mping, and the host playbook. 
