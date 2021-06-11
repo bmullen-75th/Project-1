@@ -97,6 +97,6 @@ SSH into the control node and follow the steps below:
 
 - The YAML files are located in the pathway /etc/Ansible
 - The hosts file needs to be changed for Ansible to run. To specifiy which machine installs ansible playbooks the [servername] needs to be set.
-- To check if the Elk server is running open a web browser and type [138.91.139.225:5601]
+- To check if the Elk server is running open a web browser and type `138.91.139.225:5601`
 
 Be familiar with ansible, mping, and the host playbook. 
