@@ -96,7 +96,6 @@ SSH into the control node and follow the steps below:
 - Update the configuration file to include the private IP addresses. 
 - Run the playbook, and navigate to the Elk Server to check the webserver to make sure filebeat and metricbeat are there, ensuring that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - The YAML files are located in the pathway /etc/Ansible
 - The hosts file needs to be changed for Ansible to run. To specifiy which machine installs ansible playbooks the [servername] needs to be set.
 - To check if the Elk server is running open a web browser and type http://138.91.139.225/:5601/app/home 
