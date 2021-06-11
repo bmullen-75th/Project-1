@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
-  - 
+  (Project-1/Ansible)
 
 This document contains the following details:
 - Description of the Topology
@@ -23,10 +23,9 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly secure, in addition to restricting traffic to the network.
--  
-Load balancers are an important part of network security as they protect the incoming traffic to applications, and see all inbound requests. 
-Jumpboxes are beneficial as they are hardened devices, which allow access to security zones into other devices. The jumpbox is singular point of access which 
-can be monitored,and is accessed from a trusted network. 
+-  Load balancers are an important part of network security as they protect the incoming traffic to applications, and see all inbound requests. 
+-  Jumpboxes are beneficial as they are hardened devices, which allow access to security zones into other devices. 
+-  The jumpbox is singular point of access which can be monitored, and is accessed from a trusted network. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system services.
 - Filebeat collects log data such as: log files, locations, log events and then forwards the information to elasticsearch.
